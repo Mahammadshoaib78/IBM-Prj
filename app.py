@@ -18,6 +18,7 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
 # Streamlit app title
 st.set_page_config(page_title="Customer Segmentation", layout="wide")
 st.title("🧠 Advanced Customer Segmentation Tool")
+st.sidebar.markdown("Created by [Mahammadshoaib Mulla](https://www.linkedin.com/in/mshoaib-mulla/)")
 st.markdown("Upload your dataset (CSV format) to perform deep clustering-based segmentation.")
 
 # Sample download
@@ -214,5 +215,5 @@ else:
     5. *Clustering*: Customers are grouped based on their characteristics
     6. *Visualization*: Explore the segments through interactive charts
     
-    This tool combines deep learning and clustering to find natural customer segments in your data!
-    """)
+    This tool combines deep learning and clustering to find natural customer segments in your data!
+    """)
